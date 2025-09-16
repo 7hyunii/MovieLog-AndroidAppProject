@@ -8,7 +8,7 @@
 --- 
 ## 기능 설명
 
-### 1. `MainActivity`
+### 1. `MainActivity` [🔗](app/src/main/java/com/example/termproject/MainActivity.kt)
 
 - 앱 실행 시 가장 먼저 실행되는 메인 액티비티 
 
@@ -30,7 +30,7 @@
 
     - 영화 아이템 클릭 시 `DetailActivity`로 이동
 
-### 2. `AddMovieActivity`
+### 2. `AddMovieActivity` [🔗](app/src/main/java/com/example/termproject/AddMovieActivity.kt)
 
 - 새로운 영화 추가 화면
 
@@ -46,7 +46,7 @@
 
     - TMDB에서 예고편 키(trailer key) 가져옴
 
-### 3. `DetailActivity`
+### 3. `DetailActivity` [🔗](app/src/main/java/com/example/termproject/DetailActivity.kt)
 
 - 선택한 영화의 상세 정보 화면 (작성한 리뷰와 별점 확인·수정 가능)
 
