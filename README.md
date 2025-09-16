@@ -8,17 +8,17 @@
 --- 
 ## 기능 설명
 
-### 1. MainActivity
+### 1. `MainActivity`
 
-- 앱 실행 시 가장 먼저 실행되는 메인 액티비티
+- 앱 실행 시 가장 먼저 실행되는 메인 액티비티 
 
 - `MovieListFragment`를 메인 UI로 로드하여 영화 목록 관리를 중심으로 화면 구성
 
-- 📋 `MovieListFragment`
+- 📋 **`MovieListFragment`**
 
     - Firestore에 저장된 영화 목록을 불러와 RecyclerView로 표시
 
-    - `MovieAdapter`를 통해 영화 카드(포스터, 제목, 연도, 리뷰, 평점)를 렌더링
+    - `MovieAdapter`를 통해 **영화 카드(포스터, 제목, 연도, 리뷰, 평점)**를 렌더링
     
     - 정렬 기능 제공
 
@@ -30,31 +30,31 @@
 
     - 영화 아이템 클릭 시 `DetailActivity`로 이동
 
-### 2. AddMovieActivity
+### 2. `AddMovieActivity`
 
 - 새로운 영화 추가 화면
 
 - 기능 요약
 
-    - 제목/연도를 입력해 TMDB API로 영화 검색
+    - **제목/연도를 입력해 TMDB API로 영화 검색**
 
-    - 포스터, 제목, 개봉연도, 줄거리 자동 불러오기
+    - 포스터, 제목, 개봉연도, 줄거리 자동 불러옴
 
-    - 사용자가 직접 별점과 리뷰 작성 가능
+    - **사용자가 직접 별점과 리뷰 작성 가능**
 
     - 입력된 데이터는 Firebase Firestore에 저장
 
     - TMDB에서 예고편 키(trailer key) 가져옴
 
-### 3. DetailActivity
+### 3. `DetailActivity`
 
-- 선택한 영화의 상세 정보 화면
+- 선택한 영화의 상세 정보 화면 (작성한 리뷰와 별점 확인·수정 가능)
 
 - Firestore에 저장된 데이터를 불러와 표시
 
     - 포스터, 제목, 개봉연도, 줄거리, 리뷰, 평점
 
-- 추가 기능
+- **기능**
 
     - ⭐ 별점과 리뷰 수정
 
@@ -84,6 +84,10 @@
 ## 🛠️ 기술 스택
 
 - Android Studio Meerkat | 2024.3.1
+- Android SDK :
+  - `minSdk 24`
+  - `targetSdk 35`
+  - `compileSdk 35`
 - Firebase Firestore
 - Language : Kotlin
 
