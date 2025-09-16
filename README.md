@@ -14,7 +14,7 @@
 
 - `MovieListFragment`를 메인 UI로 로드하여 영화 목록 관리를 중심으로 화면 구성
 
-- 📋 **`MovieListFragment`**
+- 📋 **`MovieListFragment`** [🔗](app/src/main/java/com/example/termproject/MovieListFragment.kt)
 
     - Firestore에 저장된 영화 목록을 불러와 RecyclerView로 표시
 
