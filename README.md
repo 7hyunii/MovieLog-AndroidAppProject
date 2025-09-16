@@ -68,13 +68,13 @@
 
 ### 📱 모바일에서 APK 실행
 
-- `app-debug.apk`를 모바일에 내려받아 설치 후 실행 가능합니다.
+- `app-debug.apk`[🔗](app-debug.apk) 를 모바일에 내려받아 설치 후 실행 가능합니다.
 
 ### 🖥️ PC에서 APK 실행 (Android Emulator)
 
 1. Android Studio → Device Manager → Create Virtual Device → 에뮬레이터 실행
 2. APK 설치:
-   - 드래그&드롭: `app-debug.apk`를 에뮬레이터 창에 끌어넣기
+   - 드래그&드롭: `app-debug.apk`[🔗](app-debug.apk) 를 에뮬레이터 창에 끌어넣기
    - 또는 ADB:
      ```bash
      adb install -r app-debug.apk
