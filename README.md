@@ -91,5 +91,8 @@
 - Firebase Firestore
 - Language : Kotlin
 
+## ⚖️ 라이선스 (License)
+
+이 프로젝트는 MIT 라이선스를 따릅니다.
 
 ## 스크린 샷
